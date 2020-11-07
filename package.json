@@ -1,0 +1,37 @@
+{
+  "name": "uptime-status",
+  "version": "1.4.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dayjs": "^1.8.31",
+    "htmr": "^0.8.8",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^3.4.1",
+    "react-tooltip": "^4.2.7"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-app-rewired": "^2.1.6"
+  },
+  "homepage": "./"
+}
