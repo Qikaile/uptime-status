@@ -5,7 +5,7 @@
 ## 在线体验：  
 
 简化版：<https://tjys.now.sh/>  
-![](https://cdn.jsdelivr.net/gh/Qikaile/cdn/img/Uptime Status.png)
+![](https://cdn.jsdelivr.net/gh/Qikaile/cdn/img/Uptime%20Status.PNG)
 
 
 ## 如何复用这个项目？  
