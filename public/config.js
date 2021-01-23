@@ -17,7 +17,6 @@ window.Config = {
     'm786336367-8105e54df5e10b1654fe5df7',
     'm786336382-19b8bc68931082ae50ad13fd',
     'm786344761-38ac7c80cfba3bff6b4ee9b0',
-    'm786349238-d3ecb416f2f408517a1d43be',
     'm786442374-d8ecbfbf82ad151ba3cf94f6',
   ],
 
