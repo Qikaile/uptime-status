@@ -13,6 +13,18 @@
 2- 修改配置文件：config.js，主要是修改 apikey 内容，强烈建议使用 Read-Only key,<https://uptimerobot.com/dashboard#mySettings> 如下图；  
 ![](https://cdn.jsdelivr.net/gh/Qikaile/cdn/img/warn.png.png)  
 3- 绑定网站域名，恭喜部署完成！
+登录cloudflre主页，在主菜单右边，点击【网页】
+![](https://cdn.jsdelivr.net/gh/Qikaile/cdn/img/2021-02-15-01.png)
+进入后创建项目并绑定github账号，选择部署仓库
+![](https://cdn.jsdelivr.net/gh/Qikaile/cdn/img/2021-02-15-02.png)
+![](https://cdn.jsdelivr.net/gh/Qikaile/cdn/img/2021-02-15-03.png)
+部署
+![](https://cdn.jsdelivr.net/gh/Qikaile/cdn/img/2021-02-15-04.png)
+访问域名，你也可以绑定自定义域名
+![](https://cdn.jsdelivr.net/gh/Qikaile/cdn/img/2021-02-15-05.png)
+
+你也可以使用Vercel部署网站，登录[vercel官网](https://vercel.com/)注册账号并绑定github,导入新项，选择导入Git存储库，选择个人账号，点击部署。
+
 
 ### 基于 Cloudflare Workers 搭建 UptimeRobot API 代理，以解决官网 API 跨域问题
 
