@@ -4,7 +4,7 @@
 
 ## 在线体验：  
 
-简化版：<https://tjys.now.sh/>  
+简化版：<https://tjys.vercel.app/>  
 ![](https://cdn.jsdelivr.net/gh/Qikaile/cdn/img/Uptime%20Status.PNG)
 
 
