@@ -14,8 +14,8 @@
 ![](https://cdn.jsdelivr.net/gh/Qikaile/cdn/img/warn.png.png)  
 ### 3- 绑定网站域名，恭喜部署完成！
 
-#### 登录cloudflre主页，在主菜单右边，点击【网页】
-![](https://cdn.jsdelivr.net/gh/Qikaile/cdn/img/2021-02-15-01.png)
+#### 登录cloudflare主页，在主菜单右边，点击【网页】
+![](https://cdn.jsdelivr.net/gh/qikaile/cdn/img/2021-02-15-01.png)
 
 #### 进入后创建项目并绑定github账号，选择部署仓库
 ![](https://cdn.jsdelivr.net/gh/Qikaile/cdn/img/2021-02-15-02.png)
