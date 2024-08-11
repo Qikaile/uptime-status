@@ -2,7 +2,6 @@ import { useMemo } from 'react';
 import Link from './link';
 import Header from './header';
 import UptimeRobot from './uptimerobot';
-import Package from '../../package.json';
 
 function App() {
 
@@ -12,6 +11,8 @@ function App() {
     if (typeof ApiKeys === 'string') return [ApiKeys];
     return [];
   }, []);
+
+  const currentYear = new Date().getFullYear();
 
   return (
     <>
@@ -24,7 +25,7 @@ function App() {
         </div>
         <div id='footer'>
           <p>基于&nbsp;<Link to='https://uptimerobot.com/' text='UptimeRobot' />&nbsp;接口&nbsp;|&nbsp;检测频率&nbsp;5&nbsp;分钟</p>
-          <p>2020&nbsp;-&nbsp;2023&nbsp;&copy;&nbsp;Reach&nbsp;-&nbsp;<Link to='/' text='墨明' /></p>
+          <p>2020&nbsp;-&nbsp;{currentYear}&nbsp;&copy;&nbsp;Reach&nbsp;-&nbsp;<Link to='/' text='墨明' /></p>
         </div>
       </div>
     </>
