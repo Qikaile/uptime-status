@@ -12,20 +12,42 @@
     <meta name="force-rendering" content="webkit" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#424242" />
-    <meta name="description" content="云生站点监测">
-    <meta name="keywords" content="墨明,云生站点监测">
-    <meta name="author" content="墨明">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
     <link rel="apple-touch-icon" href="./img/icon/apple-touch-icon.png">
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="https://unpkg.zhimg.com/react-nice-resume@1.0.3/css/css2-NotoSerifSC_swap.css">
-        <!-- PWA -->
+    <!-- PWA -->
     <link rel="manifest" href="./manifest.json">
     <title>云生站点监测</title>
     <script src="./config.js"></script>
+    <script>
+      // 从 config.js 获取配置并设置 meta 信息
+      document.addEventListener('DOMContentLoaded', function () {
+        const config = window.Config || {};
+
+        const descriptionMeta = document.querySelector('meta[name="description"]');
+        const keywordsMeta = document.querySelector('meta[name="keywords"]');
+        const authorMeta = document.querySelector('meta[name="author"]');
+
+        if (descriptionMeta && config.SiteDescription) {
+          descriptionMeta.setAttribute('content', config.SiteDescription);
+        }
+
+        if (keywordsMeta && config.SiteKeywords) {
+          keywordsMeta.setAttribute('content', config.SiteKeywords);
+        }
+
+        if (authorMeta && config.SiteAuthor) {
+          authorMeta.setAttribute('content', config.SiteAuthor);
+        }
+      });
+    </script>
   </head>
   <body>
     <div id="app"></div>
-        <!-- sw.js -->
+    <!-- sw.js -->
     <script>
         if ("serviceWorker" in navigator) {
             window.addEventListener("load", function () {
