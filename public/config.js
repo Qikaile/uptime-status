@@ -13,8 +13,13 @@ window.Config = {
   // 作者
   SiteAuthor: '墨明',
 
+  // Apple Touch Icon 路径
+  AppleTouchIcon: './favicon.ico',
+
+  // Shortcut Icon 路径
+  ShortcutIcon: './favicon.ico',
+
   // UptimeRobot Api Keys
-  // 支持 Monitor-Specific 和 Read-Only
   ApiKeys: [
     'ur1078385-b9802a0868414b8a975d5038',
   ],

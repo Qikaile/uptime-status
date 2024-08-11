@@ -15,21 +15,24 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="author" content="">
-    <link rel="apple-touch-icon" href="./img/icon/apple-touch-icon.png">
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="">
+    <link rel="shortcut icon" href="" type="image/x-icon" />
     <link rel="stylesheet" href="https://unpkg.zhimg.com/react-nice-resume@1.0.3/css/css2-NotoSerifSC_swap.css">
     <!-- PWA -->
     <link rel="manifest" href="./manifest.json">
-    <title>云生站点监测</title>
+    <title></title>
     <script src="./config.js"></script>
     <script>
-      // 从 config.js 获取配置并设置 meta 信息
+      // 从 config.js 获取配置并设置 meta 信息、页面标题和图标
       document.addEventListener('DOMContentLoaded', function () {
         const config = window.Config || {};
 
         const descriptionMeta = document.querySelector('meta[name="description"]');
         const keywordsMeta = document.querySelector('meta[name="keywords"]');
         const authorMeta = document.querySelector('meta[name="author"]');
+        const titleTag = document.querySelector('title');
+        const appleTouchIcon = document.querySelector('link[rel="apple-touch-icon"]');
+        const shortcutIcon = document.querySelector('link[rel="shortcut icon"]');
 
         if (descriptionMeta && config.SiteDescription) {
           descriptionMeta.setAttribute('content', config.SiteDescription);
@@ -41,6 +44,18 @@
 
         if (authorMeta && config.SiteAuthor) {
           authorMeta.setAttribute('content', config.SiteAuthor);
+        }
+
+        if (titleTag && config.SiteName) {
+          titleTag.textContent = config.SiteName;
+        }
+
+        if (appleTouchIcon && config.AppleTouchIcon) {
+          appleTouchIcon.setAttribute('href', config.AppleTouchIcon);
+        }
+
+        if (shortcutIcon && config.ShortcutIcon) {
+          shortcutIcon.setAttribute('href', config.ShortcutIcon);
         }
       });
     </script>
