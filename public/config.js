@@ -2,12 +2,12 @@
 window.Config = {
 
   // 显示标题
-  SiteName: '云生站点监测',
+  SiteName: 'ZzNnWn站点监控',
 
   // UptimeRobot Api Keys
   // 支持 Monitor-Specific 和 Read-Only
   ApiKeys: [
-    'ur1078385-b9802a0868414b8a975d5038',
+    'ur2454211-c30a6a15d4d5b4dbbebbaa6b',
   ],
 
     // 日志天数
@@ -22,11 +22,11 @@ window.Config = {
   Navi: [
     {
       text: '主页',
-      url: 'https://tjys.tk'
+      url: 'http://sunlight.zznnwn.cloudns.biz'
     },
     {
       text: '博客',
-      url: 'https://blog.qikaile.tk'
+      url: 'https://gegewu-cloud.github.io'
     },
     {
       text: 'GitHub',
